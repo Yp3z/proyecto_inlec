@@ -144,9 +144,6 @@ body{
   paint-order: stroke fill;
 }
 
-
-
-/* BOTONES NAVBAR */
 .inlec-nav-btn {
   font-family: 'Abalone', sans-serif;
   color: #ecd9cb;
@@ -164,7 +161,6 @@ body{
   background: #ebbb59;
 }
 
-/* ICONO HAMBURGUESA */
 .navbar-toggler {
   border: none;
 }
@@ -173,14 +169,14 @@ body{
   filter: invert(0.3);
 }
 
-/* HEADER FIX */
+
 .header {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* ELEMENTOS DECORATIVOS */
+
 .header-diamantes {
   position: absolute;
   left: 20px;
@@ -543,8 +539,6 @@ body{
   font-size: 20px;
 }
 
-
-
 .nosotros-nombre {
   font-family: 'Abalone', sans-serif;
   color: #ecd9cb;
@@ -664,7 +658,7 @@ body{
   padding-left: 0.2rem;
 }
 
-/* 🔥 FIX RESPONSIVE SUPERZORRO */
+
 .superzorro-img {
   height: auto; 
   max-height: 700px;
@@ -677,7 +671,7 @@ A
 
 .fondo-capitulos {
   width: 100%;
-  max-width: 700px; /* mantiene tu diseño en PC */
+  max-width: 700px;
   height: auto;
   padding: 1rem;
 }
@@ -691,12 +685,12 @@ A
   font-size: clamp(20px, 5vw, 40px);
 }
 
-/* BOTONES ABAJO */
+
 .botones {
-  margin-left: 0; /* quita el desmadre en móvil */
+  margin-left: 0; 
 }
 
-/* POSICIÓN BOTONES */
+
 .superzorro-section .btn-group {
   position: absolute;
   bottom: 10px;
@@ -712,13 +706,13 @@ A
 
 
 
-/* Proyecto: quitar margin negativo en móvil */
+
 @media (max-width: 768px) {
   .proyecto-container {
     margin-top: 1rem;
   }
 
-  /* Modal más pequeño en móvil */
+
   .modal-card {
     flex-direction: column;
     height: auto;
@@ -750,19 +744,17 @@ A
     text-align: center;
   }
 
-  /* Nosotros: quitar bottom negativo */
   .nosotros-card {
     position: static;
     bottom: auto;
   }
 
-  /* Footer icons más pequeños */
+
   .footer-icon {
     width: 60px;
     height: 50px;
   }
 
-  /* Masinlec: quitar gap fijo */
   .masinlec-contenido {
     gap: 1rem;
   }

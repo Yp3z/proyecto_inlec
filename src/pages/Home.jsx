@@ -57,7 +57,7 @@ export const Home = () => {
   return (
     <>
 
-      {/* ── Nuestro Proyecto ── */}
+
       <section>
         <div id="proyecto" className="container text-center proyecto-container">
           <div className="row align-items-center g-4">
@@ -74,7 +74,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* ── El SuperZorro ── */}
+
       <section id="animacion" className="superzorro-section position-relative mt-5">
         <img className="superzorro-img w-100" src="./Capitulos.jpg" alt="" />
 
@@ -98,7 +98,7 @@ export const Home = () => {
           </div>
         </div>
 
-        {/* Botones de control — fila inferior */}
+
         <div className="d-flex justify-content-between align-items-center px-3 pb-2 position-absolute bottom-0 start-0 w-100">
           <div className="btn-group botones rounded-4" role="group">
             <button type="button" className="btn"><img src="./T.png" alt="" height="35px" /></button>
@@ -111,7 +111,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* ── Sobre Nosotros ── */}
+
       <section id="nosotros">
         <div className="cuadro-sobre-nosotros mt-5">
           <h1 className="personajes-titulo text-center">Sobre Nosotros</h1>
@@ -139,7 +139,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* ── Personajes ── */}
+
       <h1 className="section-title" id="personajes">Personajes</h1>
       <div className={`app-wrapper ${selectedCharacter ? "blurred" : ""}`}>
         <div className="wood-background">
@@ -197,7 +197,7 @@ export const Home = () => {
         )}
       </div>
 
-      {/* ── Mas Sobre Inlec ── */}
+
       <section id="inlec" className="masinlec-section">
         <h1 className="personajes-titulo text-center">Mas sobre Inlec</h1>
         <div className="container">
@@ -227,7 +227,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* ── Footer ── */}
+
       <section id="contacto" className="footer-section">
         <h1 className="personajes-titulo text-center">Mas Información</h1>
         <div className="container py-4">
