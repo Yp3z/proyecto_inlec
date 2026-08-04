@@ -246,7 +246,7 @@ export const Home = () => {
 
             <div className="col-12 col-sm-6 col-md-4">
               <div className="d-flex align-items-center gap-2 mb-2">
-                <img src="./Siguenos.png" alt="" style={{ width: "60px", height: "55px" }} />
+                <img src="./Siguenos.png" alt="" style={{ width: "60px", height: "56px" }} />
                 <span className="footer-titulo">Síguenos</span>
               </div>
               <p className="footer-redes">Instagram</p>
